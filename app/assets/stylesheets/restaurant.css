@@ -1,0 +1,86 @@
+.container {
+  width: 43%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+h1 {
+  font-weight: 400;
+  color: rgb(98, 168, 211);
+  padding-bottom: 15px;
+}
+
+h2 {
+  font-weight: 400;
+  color: rgb(149, 151, 153);
+  padding-bottom: 15px;
+}
+
+form {
+  padding-bottom: 15px;
+}
+
+a {
+  color: rgb(98, 168, 211);
+}
+
+a:hover {
+  color: rgb(98, 168, 211);
+}
+
+ul {
+  padding: 0;
+  list-style: none;
+}
+
+li {
+  padding-bottom: 10px;
+}
+
+
+label {
+  display: block;
+  padding-bottom: 5px;
+  font-weight: 400;
+  color: rgb(149, 151, 153);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  padding-top: 20px;
+}
+
+form label {
+  color: rgb(98, 168, 211);
+  padding-bottom: 20px;
+}
+
+input[type="text"], input[type="submit"] {
+  background-color: transparent;
+  border: 1px solid rgb(98, 168, 211);
+}
+
+input[type="text"] {
+  width: 75%;
+  padding: 10px;
+  margin-bottom: 10px;
+  color: rgb(129, 121, 121);
+  transition: .4s;
+  border-radius: 50px;
+}
+
+input[type="submit"] {
+  padding: 10px;
+  width: 50%;
+  color: rgb(98, 168, 211);
+  transition: .3s;
+  border-radius: 50px;
+}
+
+input[type="submit"]:hover {
+  cursor: pointer;
+  background-color: rgb(98, 168, 211);
+  border: 1px solid rgb(98, 168, 211);
+  font-weight: 500;
+}
